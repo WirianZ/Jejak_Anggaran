@@ -8,6 +8,18 @@
 @source "../**/*.jsx";
 
 @theme {
-    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+    --font-sans: 'Plus Jakarta Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
         'Segoe UI Symbol', 'Noto Color Emoji';
+
+    /* Warna ProjaHub */
+    --color-primary: #6FA8D8;
+    --color-primary-dark: #3B82F6;
+    --color-soft: #EAF3FA;
+    --color-navy: #18324B;
+    --color-surface: #F8FAFC;
+    --color-body: #64748B;
+    --color-line: #E2E8F0;
+    /* biru aksi untuk tombol dan teks kecil (kontras 4.5:1 dengan putih) */
+    --color-cta: #2563EB;
+    --color-cta-hover: #1D4FD0;
 }
