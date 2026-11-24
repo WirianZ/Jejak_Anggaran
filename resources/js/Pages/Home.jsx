@@ -1,17 +1,18 @@
-// import Navbar from '../Components/Navbar/Navbar';       ← section teman
-import ECatalogSection from '../ECatalog/ECatalogSection'; // ← section 2 (kamu)
-// import Footer from '../Components/Footer/Footer';       ← section teman
+import { Head } from '@inertiajs/react';
+import Navbar from '../Components/Navbar';
+import Hero from '../Components/Hero';
+import ECatalogSection from '../ECatalog/ECatalogSection';
 
-export default function Home() {
+export default function Home({ title }) {
     return (
         <>
-            {/* <Navbar /> */}
+            <Head title={title} />
+
+            <Navbar />
             <main>
-                {/* <HeroSection /> */}
+                <Hero />
                 <ECatalogSection />
-                {/* <SectionLain /> */}
             </main>
-            {/* <Footer /> */}
         </>
     );
 }
