@@ -3,15 +3,15 @@ import { createInertiaApp } from '@inertiajs/react';
 import { createRoot } from 'react-dom/client';
 
 createInertiaApp({
-   resolve: (name) => {
-    const pages = import.meta.glob('./Pages/**/*.jsx', { eager: true });
-    const page = pages[`./Pages/${name}.jsx`];
+    resolve: (name) => {
+        const pages = import.meta.glob('./Pages/**/*.jsx', { eager: true });
+        const page = pages[`./Pages/${name}.jsx`];
 
-    if (!page) {
-        throw new Error(
-            `Halaman "${name}" tidak ditemukan. Yang tersedia: ${Object.keys(pages).join(', ')}`
-        );
-    }
+        if (!page) {
+            throw new Error(
+                `Halaman "${name}" tidak ditemukan. Yang tersedia: ${Object.keys(pages).join(', ')}`
+            );
+        }
 
         return page;
     },
