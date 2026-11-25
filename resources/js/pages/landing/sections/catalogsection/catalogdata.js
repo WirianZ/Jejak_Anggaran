@@ -7,6 +7,7 @@ export const letterServices = [
         description: 'Pengajuan surat pengantar untuk keperluan administrasi pernikahan.',
         icon: HeartHandshake,
         badge: 'Keluarga',
+        price: 'Rp 0',
         estimate: '1–2 hari kerja',
     },
     {
@@ -15,6 +16,7 @@ export const letterServices = [
         description: 'Pengajuan surat keterangan tempat tinggal warga.',
         icon: MapPin,
         badge: 'Kependudukan',
+        price: 'Rp 0',
         estimate: '1 hari kerja',
     },
     {
@@ -23,6 +25,7 @@ export const letterServices = [
         description: 'Pengajuan surat keterangan kepemilikan atau aktivitas usaha.',
         icon: Store,
         badge: 'Usaha',
+        price: 'Rp 0',
         estimate: '1–2 hari kerja',
     },
     {
@@ -31,6 +34,7 @@ export const letterServices = [
         description: 'Pengajuan surat keterangan kondisi sosial ekonomi warga.',
         icon: HandHeart,
         badge: 'Sosial',
+        price: 'Rp 0',
         estimate: '2–3 hari kerja',
     },
     {
@@ -39,6 +43,7 @@ export const letterServices = [
         description: 'Pengajuan surat keterangan peristiwa kelahiran.',
         icon: Baby,
         badge: 'Kependudukan',
+        price: 'Rp 0',
         estimate: '1 hari kerja',
     },
     {
@@ -47,6 +52,7 @@ export const letterServices = [
         description: 'Pengajuan surat pengantar untuk keperluan pembuatan SKCK.',
         icon: ShieldCheck,
         badge: 'Kepolisian',
+        price: 'Rp 0',
         estimate: '1 hari kerja',
     },
 ];
